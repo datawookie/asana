@@ -1,0 +1,9 @@
+# Asana R Package
+
+## Personal Access Token
+
+1. Open the [Developer App Management](https://app.asana.com/-/developer_console) page
+2. Click "+ New access token".
+3. Type a description for the token.
+4. Click "Create".
+5. Copy your token and store in somewhere safe (like in `.Renviron`).

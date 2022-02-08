@@ -1,0 +1,25 @@
+Package: asana
+Type: Package
+Title: Wrapper for Asana API
+Version: 0.0.1
+Authors@R: 
+    c(person(given = c("Andrew", "B."),
+             family = "Collier",
+             role = c("aut", "cre", "cph"),
+             email = "andrew@fathomdata.dev"))
+Description: Wrapper for the Asana API.
+License: GPL-3
+Language: en-GB
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    httr,
+    janitor,
+    jsonlite,
+    logger,
+    lubridate,
+    purrr,
+    tidyr
+RoxygenNote: 7.1.2
+Roxygen: list(markdown = TRUE)
